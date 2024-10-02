@@ -60,10 +60,10 @@ export function AppDirectory() {
       <NavBarComponent />
 
       <main className="pt-16">
-        <div className='p-[100px] bg-gradient-to-b to-pink-100 from-purple-200'>
+        <div className='p-8 md:p-12 lg:p-16 bg-gradient-to-b to-pink-100 from-purple-200'>
           <div className="text-center mb-4">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">Discover the Best Japanese Learning Apps</h1>
-            <p className="text-xl text-gray-600 mb-6">Explore a world of language learning resources tailored just for you</p>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">Discover the Best Japanese Learning Apps</h1>
+            <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-6">Explore a world of language learning resources tailored just for you</p>
             <div className="relative max-w-3xl mx-auto">
               <Input
                 type="text"
